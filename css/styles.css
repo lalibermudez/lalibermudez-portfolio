@@ -10,10 +10,9 @@
   text-align: center;
 }
 
-.header {
-  /* background-color: #ED6D72; */
-  /* background-color: #f7787c; */
-  background-color: #f07f83;
+i {
+  padding: .5rem;
+  color: rgba(255,255,255,.5);
 }
 
 .intro-section {
