@@ -10,6 +10,14 @@
   text-align: center;
 }
 
+.lb-logo {
+  border: 1px solid;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+}
+
 i {
   color: rgba(255,255,255,.5);
 }
