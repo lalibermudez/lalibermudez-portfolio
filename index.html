@@ -6,55 +6,57 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Architects+Daughter|Julius+Sans+One" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:500" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>Lali Bermudez Portfolio</title>
 </head>
 <body>
+  <nav class="navbar sticky-top navbar-expand-md navbar-dark" style="background-color: #f07f83;">
+    <div class="navbar-brand">
+      <div class="lb-logo">
+        LB
+      </div>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <div class="navbar-nav">  <!-- class mr-auto? -->
+          <a class="nav-item nav-link" href="#skills-section">Skills</a>
+          <a class="nav-item nav-link" href="#projects-section">Projects</a>
+          <a class="nav-item nav-link" href="#aboutme-section">About</a>
+          <a class="nav-item nav-link" href="#contactme-section">Contact</a>
+      </div>
+    </div>
+
+    <div class="navbar-nav d-none d-md-inline-flex">
+      <a class="nav-item nav-link" href="https://twitter.com/lalibermudez" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a class="nav-item nav-link" href="https://github.com/lalibermudez" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+      <a class="nav-item nav-link" href="https://www.linkedin.com/in/gcbermudez/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </div>
+  </nav>
+
+  <section class="center-picture">
+    <div>
+      <img src="images/LaliLr-6.jpg" class="img-fluid" alt="Picture of Lali Bermudez">
+    </div>
+  </section>
+
+  <section class="intro-section">
+    <div class="intro-message">
+      <p>Hi, I'm Lali. I'm a Front-End Web Developer. I build beautiful, functional applications...</p>
+    </div>
+  </section>
+
   <div class="container-fluid">
-    <nav class="navbar sticky-top navbar-expand-md navbar-dark" style="background-color: #f07f83;">
-      <div class="navbar-brand">
-        <div class="lb-logo">
-          LB
-        </div>
-      </div>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-        <div class="navbar-nav">  <!-- class mr-auto? -->
-            <a class="nav-item nav-link" href="#skills-section">Skills</a>
-            <a class="nav-item nav-link" href="#projects-section">Projects</a>
-            <a class="nav-item nav-link" href="#aboutme-section">About</a>
-            <a class="nav-item nav-link" href="#contactme-section">Contact</a>
-        </div>
-      </div>
-
-      <div class="navbar-nav d-none d-md-inline-flex">
-        <a class="nav-item nav-link" href="https://twitter.com/lalibermudez" target="_blank" rel="noopener">
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a class="nav-item nav-link" href="https://github.com/lalibermudez" target="_blank" rel="noopener">
-          <i class="fab fa-github"></i>
-        </a>
-        <a class="nav-item nav-link" href="https://www.linkedin.com/in/gcbermudez/" target="_blank" rel="noopener">
-          <i class="fab fa-linkedin"></i>
-        </a>
-      </div>
-    </nav>
-
-    <section class="center-picture row">
-      <div class="col">
-        <img src="images/LaliLr-6.jpg" class="img-fluid" alt="Picture of Lali Bermudez">
-      </div>
-    </section>
-
-    <section class="main intro-section row">
-      <div class="intro-message col">
-        <p>Hi, I'm Lali. I'm a Front-End Web Developer???</p>
-      </div>
-    </section>
-
     <section id="skills-section" class="main row">
       <div class="section-title col">
         <h2>Skills</h2>
@@ -66,7 +68,6 @@
       <div class="skill col">Git</div>
       <div class="skill col">WP</div>
     </section>
-
 
     <section id="projects-section" class="main row">
       <div class="section-title col">
@@ -111,9 +112,9 @@
 
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
 
 </body>
 </html>

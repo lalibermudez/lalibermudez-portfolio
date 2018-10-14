@@ -2,8 +2,8 @@
   border: 1px solid red !important;
 } */
 
-.container-fluid {
-  padding: 0;
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
 }
 
 .main.row {
@@ -13,20 +13,21 @@
 .lb-logo {
   border: 1px solid;
   padding: .375rem .75rem;
-  font-size: 1rem;
   line-height: 1.5;
   border-radius: .25rem;
 }
 
-i {
-  color: rgba(255,255,255,.5);
-}
-
 .intro-section {
   background-color: #fbdadb;
+  text-align: center;
 }
 
 .intro-message {
+  padding: 50px;
+  font-family: 'Architects Daughter', cursive;
+  font-size: 28px;
+  /* font-family: 'Amatic SC', cursive; */
+  /* font-family: 'Shadows Into Light', cursive; */
   /* color: #b7b7b7; */
   color: gray;
 }
