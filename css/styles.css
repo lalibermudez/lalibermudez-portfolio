@@ -6,7 +6,7 @@ body {
   font-family: 'Montserrat Alternates', sans-serif;
 }
 
-.main.row {
+.main {
   text-align: center;
 }
 
@@ -30,6 +30,19 @@ body {
   /* font-family: 'Shadows Into Light', cursive; */
   /* color: #b7b7b7; */
   color: gray;
+}
+
+#skills-section {
+  padding: 50px 0;
+}
+
+.card {
+  margin: 15px 0;
+}
+
+.icons {
+  height: 50px;
+  max-width: 60px;
 }
 
 .social-section {
