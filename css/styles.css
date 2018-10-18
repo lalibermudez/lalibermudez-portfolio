@@ -51,8 +51,16 @@ section.main {
   background-color: #b7b7b7;
 }
 
-.card-icon {
-  width: 50px;
+.project {
+  margin: 15px 0;
+}
+
+.project-icon, .project-description {
+  padding: 20px;
+}
+
+.project-icon i {
+  font-size: 30px;
 }
 
 .social-section {
