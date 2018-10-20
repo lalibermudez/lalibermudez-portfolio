@@ -53,6 +53,24 @@ section.main {
 
 .project {
   margin: 15px 0;
+  font-family: 'News Cycle', sans-serif;
+  color: #fff;
+}
+
+.project-1 {
+  background-color: #26c0c0;
+}
+
+.project-2 {
+  background-color: #B0DB45;
+}
+
+.project-3 {
+  background-color: #8f7bce;
+}
+
+.project-4 {
+  background-color: #008eff;
 }
 
 .project-icon, .project-description {
