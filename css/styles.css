@@ -54,7 +54,6 @@ section.main {
 .project {
   margin: 15px 0;
   font-family: 'News Cycle', sans-serif;
-  color: #fff;
 }
 
 .project-1 {
@@ -79,6 +78,7 @@ section.main {
 
 .project-icon i {
   font-size: 30px;
+  color: #fff;
 }
 
 .social-section {
