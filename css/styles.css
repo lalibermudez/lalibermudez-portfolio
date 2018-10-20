@@ -39,6 +39,7 @@ section.main {
 /* Skills Section Styles */
 .card {
   margin: 15px 0;
+  font-family: 'News Cycle', sans-serif;
 }
 
 .icons {
@@ -49,11 +50,6 @@ section.main {
 /* Projects Section Styles */
 #projects-section {
   background-color: #f7f7f7;
-}
-
-.project {
-  /* margin: 15px 0; */
-  font-family: 'News Cycle', sans-serif;
 }
 
 .project-1 {
@@ -70,10 +66,6 @@ section.main {
 
 .project-4 {
   background-color: #008eff;
-}
-
-.project-icon, .project-description {
-  padding: 20px;
 }
 
 .project-icon i {
