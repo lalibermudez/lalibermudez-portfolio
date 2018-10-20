@@ -73,6 +73,15 @@ section.main {
   color: #fff;
 }
 
+.github-button {
+  padding-top: 30px;
+}
+
+.github-button .btn {
+  background-color: #f07f83;
+  border-color: #f07f83;
+}
+
 .social-section {
   background-color: #cacaca;
 }
