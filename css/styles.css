@@ -80,6 +80,7 @@ section.main {
 .github-button .btn {
   background-color: #f07f83;
   border-color: #f07f83;
+  f
 }
 
 /* About Section Styles */
@@ -88,4 +89,10 @@ section.main {
   color: #6078a8;
   font-size: 20px;
   margin: 0;
+}
+
+.made-by {
+  font-family: 'News Cycle', sans-serif;
+  font-size: .85rem;
+  color: #fff;
 }
