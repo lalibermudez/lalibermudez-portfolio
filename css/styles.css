@@ -82,6 +82,10 @@ section.main {
   border-color: #f07f83;
 }
 
-.social-section {
-  background-color: #cacaca;
+/* About Section Styles */
+.aboutme p {
+  /* font-family: 'Architects Daughter', cursive; */
+  color: #6078a8;
+  font-size: 20px;
+  margin: 0;
 }
