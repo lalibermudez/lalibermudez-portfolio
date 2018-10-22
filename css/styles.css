@@ -77,9 +77,15 @@ section.main {
   padding-top: 30px;
 }
 
-.github-button .btn {
+.btn {
   background-color: #f07f83;
   border-color: #f07f83;
+}
+
+/* Contact Section Styles */
+.contactme-form {
+  text-align: left;
+  font-family: 'News Cycle', sans-serif;
 }
 
 /* About Section Styles */
