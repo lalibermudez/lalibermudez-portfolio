@@ -95,12 +95,22 @@ section.main {
   margin-bottom: 0;
 }
 
+.aboutme .section-title {
+  color: rgba(250,250,250,.7);
+}
+
 .aboutme p {
   color: #fff;
   font-size: 20px;
   margin: 0;
 }
 
+.strong {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 23px;
+}
+
+/* Footer Styles */
 .made-by {
   font-size: .75rem;
   font-weight: 400;
