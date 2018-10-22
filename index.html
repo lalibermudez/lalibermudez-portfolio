@@ -213,9 +213,26 @@
     <div class="section-title">
       <h2>Contact Me</h2>
     </div>
+    <div class="contactme-intro">
+      <p>Blah blah</p>
+    </div>
 
-    <div class="contactme">
-      <p>Datos de contacto</p>
+    <div class="contactme container">
+      <form class="" action="index.html" method="post">
+        <div class="form-group">
+          <label for="nameInput">Name</label>
+          <input type="text" class="form-control" id="nameInput" placeholder="Your name here">
+        </div>
+        <div class="form-group">
+          <label for="emailInput">Email address</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+        </div>
+        <div class="form-group">
+          <label for="messageArea">Message</label>
+          <textarea class="form-control" id="messageArea" name="name" rows="8" cols="80"></textarea>
+        </div>
+      </form>
+      <button class="btn btn-primary" type="submit">Send</button>
     </div>
   </section>
 
