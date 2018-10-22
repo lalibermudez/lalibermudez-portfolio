@@ -25,15 +25,10 @@ section.main {
   border-radius: .25rem;
 }
 
-/* Intro Section Styles */
-.intro-section {
+/* Intro Styles */
+.intro-jumbo {
   background-color: #fbdadb;
   text-align: center;
-}
-
-.intro-message {
-  padding: 50px;
-  font-size: 28px;
   color: gray;
 }
 
@@ -90,7 +85,7 @@ section.main {
 }
 
 /* About Section Styles */
-.jumbotron {
+.aboutme-jumbo {
   background-color: rgba(96,120,168,.7);
   margin-bottom: 0;
 }
