@@ -4,7 +4,7 @@
 
 /* Main Styles */
 body {
-  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 section.main {
@@ -28,7 +28,7 @@ section.main {
 
 .intro-message {
   padding: 50px;
-  font-family: 'Architects Daughter', cursive;
+  /* font-family: 'Architects Daughter', cursive; */
   font-size: 28px;
   /* font-family: 'Amatic SC', cursive; */
   /* font-family: 'Shadows Into Light', cursive; */
@@ -39,7 +39,7 @@ section.main {
 /* Skills Section Styles */
 .card {
   margin: 15px 0;
-  font-family: 'News Cycle', sans-serif;
+  /* font-family: 'News Cycle', sans-serif; */
 }
 
 .icons {
@@ -85,19 +85,24 @@ section.main {
 /* Contact Section Styles */
 .contactme-form {
   text-align: left;
-  font-family: 'News Cycle', sans-serif;
+  /* font-family: 'News Cycle', sans-serif; */
 }
 
 /* About Section Styles */
+.jumbotron {
+  background-color: rgba(96,120,168,.5);
+  margin-bottom: 0;
+}
+
 .aboutme p {
   /* font-family: 'Architects Daughter', cursive; */
-  color: #6078a8;
+  color: #fff;
   font-size: 20px;
   margin: 0;
 }
 
 .made-by {
-  font-family: 'News Cycle', sans-serif;
+  /* font-family: 'News Cycle', sans-serif; */
   font-size: .85rem;
   color: #fff;
 }
