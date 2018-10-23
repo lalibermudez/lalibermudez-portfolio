@@ -30,6 +30,7 @@ section.main {
   background-color: #fbdadb;
   text-align: center;
   color: gray;
+  margin-bottom: 0;
 }
 
 /* Skills Section Styles */
