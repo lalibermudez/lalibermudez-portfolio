@@ -80,6 +80,12 @@ section.main {
   border-color: #f07f83;
 }
 
+.btn-primary:hover {
+    color: #fff;
+    background-color: #be6e73;
+    border-color: #be6e73;
+  }
+
 /* Contact Section Styles */
 .contactme-form {
   text-align: left;
