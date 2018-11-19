@@ -75,7 +75,7 @@ section.main {
   padding-top: 30px;
 }
 
-.btn {
+.btn, .btn-primary.disabled {
   background-color: #f07f83;
   border-color: #f07f83;
 }
