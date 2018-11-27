@@ -18,11 +18,53 @@ section.main {
 }
 
 /* Nav Bar Styles */
-.lb-logo {
+.logo {
   border: 1px solid;
-  padding: .375rem .75rem;
+  padding: .45rem;
   line-height: 1.5;
   border-radius: .25rem;
+  color: rgba(255,255,255,.8);
+  font-size: 1.2rem;
+}
+
+.logo-name {
+  padding-left: .6rem;
+  color: rgba(255,255,255,.8)
+}
+
+.logo-title {
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.logo-subtitle {
+  font-weight: 100;
+  font-size: .75rem;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    border: 1px solid;
+    padding: .75rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    color: rgba(255,255,255,.8)
+  }
+
+  .logo-name {
+    padding-left: .6rem;
+    color: rgba(255,255,255,.8)
+  }
+
+  .logo-title {
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+
+  .logo-subtitle {
+    font-weight: 100;
+    font-size: .85rem;
+  }
 }
 
 /* Intro Styles */
