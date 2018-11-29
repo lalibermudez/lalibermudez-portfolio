@@ -28,7 +28,7 @@ section.main {
 }
 
 .logo-name {
-  padding-left: .6rem;
+  padding-left: .4rem;
   color: rgba(255,255,255,.8)
 }
 
@@ -39,7 +39,7 @@ section.main {
 
 .logo-subtitle {
   font-weight: 100;
-  font-size: .75rem;
+  font-size: .85rem;
 }
 
 @media (min-width: 768px) {
@@ -63,7 +63,7 @@ section.main {
 
   .logo-subtitle {
     font-weight: 100;
-    font-size: .85rem;
+    font-size: .95rem;
   }
 }
 
@@ -159,4 +159,9 @@ section.main {
   font-size: .75rem;
   font-weight: 400;
   color: #fff;
+}
+/* Validator Error Messages Styles */
+
+.list-untstyled {
+  color: red;
 }
