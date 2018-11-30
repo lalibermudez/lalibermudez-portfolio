@@ -161,7 +161,11 @@ section.main {
   color: #fff;
 }
 /* Validator Error Messages Styles */
-
 .list-untstyled {
   color: red;
+}
+
+/* Contact Thanks Styles */
+.sent-message {
+  
 }

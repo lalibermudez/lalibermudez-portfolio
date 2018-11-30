@@ -8,7 +8,7 @@
 
 <body>
 
-  <nav class="navbar fixed-top navbar-expand-md navbar-dark" style="background-color: #f07f83;">
+  <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #f07f83;">
     <div class="navbar-brand d-flex">
       <div class="logo">LB</div>
       <div class="d-flex-wrap text-center logo-name">
@@ -16,24 +16,17 @@
         <span class="d-block logo-subtitle">WEB DEVELOPER</span>
       </div>
     </div>
-
-
-
-
-
   </nav>
+
 	<div>
-
-		<img src="images/title.gif" alt="A Nice & Simple Contact Form" />
-		<p>By <a href="http://css-tricks.com">CSS-Tricks</a></p>
-
+    <h1 class="sent-message">Your message has been sent!</h1>
 
 		<br /><br />
 
 
-		<h1>Your message has been sent!</h1><br />
+		<h2 class="thanks-message">Thank you for contacting me, I'll get back to you soon.</h2><br />
 
-		<p><a href="index.html">Back to Contact Form</a></p>
+		<p class="back-link"><a href="index.html">Back to the main page</a></p>
 
 	</div>
 
