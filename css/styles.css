@@ -23,13 +23,11 @@ section.main {
   padding: .45rem;
   line-height: 1.5;
   border-radius: .25rem;
-  color: rgba(255,255,255,.8);
   font-size: 1.2rem;
 }
 
 .logo-name {
   padding-left: .4rem;
-  color: rgba(255,255,255,.8)
 }
 
 .logo-title {
@@ -48,12 +46,10 @@ section.main {
     padding: .75rem;
     line-height: 1.5;
     border-radius: .25rem;
-    color: rgba(255,255,255,.8)
   }
 
   .logo-name {
     padding-left: .6rem;
-    color: rgba(255,255,255,.8)
   }
 
   .logo-title {
@@ -174,7 +170,7 @@ section.main {
 }
 
 /* Validator Error Messages Styles */
-.list-untstyled {
+.list-unstyled {
   color: red;
 }
 
