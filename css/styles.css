@@ -67,6 +67,11 @@ section.main {
   }
 }
 
+/* Picture Styles */
+.center-picture {
+  padding-top: 70px;
+}
+
 /* Intro Styles */
 .intro-jumbo {
   background-color: #fbdadb;
