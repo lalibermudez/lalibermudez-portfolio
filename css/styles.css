@@ -75,6 +75,13 @@ section.main {
   margin-bottom: 0;
 }
 
+@media (min-width: 768px) {
+  .lead {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
+
 /* Skills Section Styles */
 .card {
   margin: 15px 0;
@@ -163,9 +170,4 @@ section.main {
 /* Validator Error Messages Styles */
 .list-untstyled {
   color: red;
-}
-
-/* Contact Thanks Styles */
-.sent-message {
-  
 }
