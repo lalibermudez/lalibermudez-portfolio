@@ -167,7 +167,13 @@ section.main {
   font-weight: 400;
   color: #fff;
 }
+
 /* Validator Error Messages Styles */
 .list-untstyled {
   color: red;
+}
+
+/* Contact Form Thanks Styles */
+.thanks-card {
+  font-size: 2rem;
 }

@@ -9,12 +9,12 @@
 
 <body>
   <div class="container">
-    <div class="card">
+    <div class="card thanks-card">
       <div class="card-header">
           Success!
       </div>
       <div class="card-body">
-        <h5 class="card-title">Your message has been sent.</h5>
+        <p class="card-title">Your message has been sent.</p>
         <p class="card-text">Thank you for contacting me, I'll get back to you soon.</p>
         <a href="index.html" class="btn btn-primary">Back to the main page</a>
         </div>
