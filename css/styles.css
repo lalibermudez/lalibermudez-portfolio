@@ -156,13 +156,23 @@ section.main {
 
 .aboutme p {
   color: #fff;
-  font-size: 20px;
+  font-size: .9rem;
   margin: 0;
 }
 
 .strong {
   font-family: 'Gloria Hallelujah', cursive;
-  font-size: 23px;
+  font-size: 1.1rem;
+}
+
+@media (min-width: 768px) {
+  .aboutme p {
+    font-size: 1.25rem;
+  }
+
+  .strong {
+    font-size: 1.45rem;
+  }
 }
 
 /* Footer Styles */
